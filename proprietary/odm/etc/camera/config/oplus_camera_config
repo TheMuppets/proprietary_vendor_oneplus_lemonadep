@@ -1044,6 +1044,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.gesture.detect.in.aps",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.preview.max.images",
   "Type": "Byte",
   "Count": "1",
