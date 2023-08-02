@@ -1241,7 +1241,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_default",
                             "algonode_copy_from": "preview_default",
-                            "algo_list": [ "preview_gesture" ]
+                            "algo_list": [ "preview_asd", "preview_gesture" ]
                         }
                     }
                 }
