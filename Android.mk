@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),lemonadep)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,61ed18cf90b8d466c21e3e5e2f52fb1f5c6fd8fe)
+$(call add-radio-file-sha1-checked,radio/abl.img,4875db77f095947337b42d6e48f7a7510f56f4ed)
 $(call add-radio-file-sha1-checked,radio/aop.img,a689bcb174585e7e3c233690699a435dd88fdf02)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,7c4101f0ae320392c282b838e7dd1030833aa0ef)
 $(call add-radio-file-sha1-checked,radio/cpucp.img,31d1bb6367c24e113ae447aa3f9cf9214fe127d6)
