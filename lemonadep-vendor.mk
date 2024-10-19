@@ -560,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonadep/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/lemonadep/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
-    vendor/oneplus/lemonadep/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib/libdehaze.so:$(TARGET_COPY_OUT_ODM)/lib/libdehaze.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
@@ -718,7 +717,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libarcsoft_triple_sat.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_triple_sat.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libarcsoft_triple_zoomtranslator.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_triple_zoomtranslator.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
-    vendor/oneplus/lemonadep/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_image_optical_zoom.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
     vendor/oneplus/lemonadep/proprietary/odm/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_video_optical_zoom.so \
