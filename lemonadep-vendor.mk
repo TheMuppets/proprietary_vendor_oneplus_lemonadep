@@ -637,6 +637,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5_ccf1.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf1.fw \
     vendor/oneplus/lemonadep/proprietary/odm/vendor/firmware/iris5_ccf2.fw:$(TARGET_COPY_OUT_ODM)/vendor/firmware/iris5_ccf2.fw \
     vendor/oneplus/lemonadep/proprietary/vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b00 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b01 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b02 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b03 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b04:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b04 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b05:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b05 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b06:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b06 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.b07:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b07 \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/faceapp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.mdt \
+    vendor/oneplus/lemonadep/proprietary/vendor/etc/faceunlock/resources.zip:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/resources.zip \
     vendor/oneplus/lemonadep/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/oneplus/lemonadep/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/lemonadep/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -827,6 +837,7 @@ PRODUCT_PACKAGES += \
     libos \
     libqll10 \
     libqllengine \
+    libstfaceunlockocl \
     libswregistrationalgo \
     libsynx \
     libtfestriping \
